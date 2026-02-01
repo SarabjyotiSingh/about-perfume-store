@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Gift Store</title>
+        <link rel="stylesheet" href="shop.css">
+    </head>
+
+    <body>
+        <h2> About - Perfume Store </h2>
+        <div class="controls">
+            <select id="sort">
+                <options valu=""> Sort by </options>
+                <options value="price-asc"> Price: Low to High </options>
+                <options value="price-desc"> Price: High to Low </options>
+                <options value="name-asc"> Name A-Z </options>
+                <options value="name-des"> Name Z-A </options>
+                <options value="rating-asc"> Rating: High to Low </options>
+                <options value="rating-desc"> Rating: Low to High </options>
+            </select>
+
+            <select id="category">
+                <options value="all"> All Categories </options>
+            </select>
+        </div>
+
+        <div id="products"></div> 
+        <script src="shop.js"></script>  
+    </body>
+</html>
